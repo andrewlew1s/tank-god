@@ -1,0 +1,13 @@
+.Footer-wrap {
+
+	padding: 1rem;
+	min-width: 20vh;
+
+}
+
+.mobileInput {
+  width: 100%;
+  font-size: xx-large;
+  padding: 4rem;
+  box-sizing: border-box;
+}
