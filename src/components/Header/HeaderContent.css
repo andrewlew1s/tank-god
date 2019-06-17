@@ -1,0 +1,11 @@
+.text {
+	opacity: 1;
+	z-index: 1;
+	position: relative;
+	font-family: initial;
+}
+
+.image {
+	height: auto!important;
+	max-height: 30vh;
+}

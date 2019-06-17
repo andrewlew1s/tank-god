@@ -1,0 +1,29 @@
+.Header-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+}
+
+.Header-img {
+	position: relative;
+	z-index: -1;
+	background: white;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("https://render.fineartamerica.com/images/rendered/default/print/10.000/6.625/break/images/artworkimages/medium/1/boa-constrictor-tom-mc-nemar.jpg");
+	min-height: 25vh;
+}
+
+.Header-content {
+	height: auto!important;
+	min-height: 10vh;
+	position: relative;
+	opacity: 1;
+	color: black;
+	padding: 1rem;
+}
