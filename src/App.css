@@ -11,7 +11,7 @@
 .App__bg {
 	position: absolute;
 	z-index: -1;
-	opacity: 0.2;
+	opacity: 0.3;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
@@ -22,4 +22,11 @@
 	transform: scale(2);
 
 }
+
+@media only screen and (max-width: 600px) {
+
+	.App__bg {
+		transform: scale(1.5)
+	}
+ }
 
