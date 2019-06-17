@@ -1,11 +1,17 @@
 .text {
-	opacity: 1;
-	z-index: 1;
-	position: relative;
-	font-family: initial;
+	font-family: Lead;
+	font-size: 5em;
 }
 
 .image {
 	height: auto!important;
-	max-height: 30vh;
+	max-height: 45vh;
 }
+
+@media only screen and (max-width: 320px) {
+
+	.Header-content {
+	   font-size: 2em;
+	}
+
+ }

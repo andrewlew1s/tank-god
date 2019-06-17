@@ -1,11 +1,13 @@
 import React from 'react';
 import './HeaderContent.css';
+import Tankgod from '../../assets/tankgod.jpeg';
+
 
 const headerContent = () => {
 	return (
 		<div >
 			<h1 className="text">TANK GOD</h1>
-			<img className="image" src="https://pbs.twimg.com/media/DlZ2k-6X0AEL9We.jpg" />
+			<img className="image" src={Tankgod} alt=""/>
 		</div>
 	)
 }
