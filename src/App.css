@@ -1,12 +1,24 @@
 .App {
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 5em;
 }
 
+/* phone */
 @media only screen and (max-width: 600px) {
 
 	.Header-content {
+		text-align: center;
 	   font-size: 0.1em;
+	}
+
+ }
+
+ /* tablet */
+ @media only screen and (max-width: 1030px) {
+
+	.Header-content {
+	   text-align: center;
+	   font-size: 0.2em;
 	}
 
  }
