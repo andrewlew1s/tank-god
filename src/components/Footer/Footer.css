@@ -5,9 +5,9 @@
 
 }
 
-.mobileInput {
-  width: 100%;
-  font-size: xx-large;
-  padding: 4rem;
-  box-sizing: border-box;
+.input {
+	border: none;
+	border-bottom: 3px white solid;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
 }
