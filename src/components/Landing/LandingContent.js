@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingContent.css';
-import Footer from '../Footer/Footer';
+import Footer from './Footer/Footer';
 import Tankgod from '../../assets/tankgod.jpeg';
 import Warriors from '../../assets/warriors.jpeg';
 import Rockstar from '../../assets/rockstar.jpeg';
