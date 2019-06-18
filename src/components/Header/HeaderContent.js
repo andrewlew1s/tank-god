@@ -13,10 +13,6 @@ const headerContent = () => {
 			<img className="image" src={Warriors} alt=""/>
 			<img className="image" src={Rockstar} alt=""/>
 			<Footer />
-			<Footer />
-			<Footer />
-			<Footer />
-			<Footer />
 		</div>
 	)
 }
