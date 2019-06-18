@@ -3,6 +3,12 @@
 
 }
 
+.footer-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .img-wrap {
 	display: flex;
 	flex-direction: row;
@@ -15,13 +21,21 @@
 .input {
 	border: none;
 	border-bottom: 3px white solid;
-	/* the fourth rgba value adds translucency */
+	/* the fourth rgba value adds transparency */
 	background-color: rgba(0, 0, 0, 0.05);
 	color: white;
 	height: auto;
 	text-align: center;
 	margin-bottom: 1rem;
 
+}
+
+.button {
+	border: 3px white solid;
+	background-color: rgba(0, 0, 0, 0.05);
+	color: white;
+	margin: 20%;
+	border-radius: 25px;
 }
 
 @media only screen and (min-width: 1030px) {
