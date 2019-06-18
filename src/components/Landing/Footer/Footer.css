@@ -1,0 +1,58 @@
+.footer-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input {
+	border: none;
+	border-bottom: 3px white solid;
+	/* the fourth rgba value adds transparency */
+	background-color: rgba(0, 0, 0, 0.05);
+	color: white;
+	height: auto;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.button {
+	border: 3px white solid;
+	background-color: rgba(0, 0, 0, 0.05);
+	color: white;
+	margin: 20%;
+	border-radius: 25px;
+}
+
+.img-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 20vh;
+}
+
+.svg {
+	width: auto;
+}
+
+@media only screen and (min-width: 1030px) {
+
+	.svg {
+		width: 30%;
+
+	}
+
+	.input {
+		margin-top: 4em;
+		height: 10em;
+		width: 50em;
+		font-size: .5em;
+
+	}
+
+	.button {
+		min-height: 2.5em;
+		font-size: 200%;
+	}
+
+}

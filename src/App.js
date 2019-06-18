@@ -1,16 +1,15 @@
 import React from 'react';
-import Header from './components/Header/Header'
-import logo from './assets/logo.svg';
+import Landing from './components/Landing/Landing'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-	  <p>
-          More Stuff here!
-	  </p>
-    </div>
+		<div className="App__bg" />
+		<div className="App__wrapper" >
+			<Landing />
+		</div>
+	</div>
   );
 }
 
