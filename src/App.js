@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header/Header'
+import Landing from './components/Landing/Landing'
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
 		<div className="App__bg" />
 			<div className="App__wrapper" >
-			<Header />
+			<Landing />
 		</div>
 	</div>
   );
