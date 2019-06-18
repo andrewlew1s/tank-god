@@ -1,6 +1,13 @@
-.Footer-wrap {
+.svg {
+	width: auto;
 
-	padding: 1rem;
+}
+
+.img-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
 	min-width: 20vh;
 
 }
@@ -8,6 +15,26 @@
 .input {
 	border: none;
 	border-bottom: 3px white solid;
-	background-color: rgba(0, 0, 0, 0.1);
+	/* the fourth rgba value adds translucency */
+	background-color: rgba(0, 0, 0, 0.05);
 	color: white;
+	height: auto;
+	text-align: center;
+	margin-bottom: 1rem;
+
 }
+
+@media only screen and (min-width: 1030px) {
+
+	.svg {
+		width: 30%;
+
+	}
+
+	.input {
+		height: 10em;
+		width: 50em;
+		font-size: .5em;
+	}
+
+ }
