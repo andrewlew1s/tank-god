@@ -7,7 +7,7 @@ function App() {
     <div className="App">
 		<div className="App__bg" />
 		<div className="App__wrapper" >
-		<Landing />
+			<Landing />
 		</div>
 	</div>
   );

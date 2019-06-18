@@ -3,7 +3,7 @@ import LandingContent from './LandingContent'
 
 const Landing = () => {
 	return (
-		<div className="Landing-content">
+		<div>
 			<LandingContent />
 		</div>
 	)
