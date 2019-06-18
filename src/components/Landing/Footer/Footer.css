@@ -1,21 +1,7 @@
-.svg {
-	width: auto;
-
-}
-
 .footer-wrap {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
-
-.img-wrap {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: wrap;
-	min-width: 20vh;
-
 }
 
 .input {
@@ -27,7 +13,6 @@
 	height: auto;
 	text-align: center;
 	margin-bottom: 1rem;
-
 }
 
 .button {
@@ -36,6 +21,18 @@
 	color: white;
 	margin: 20%;
 	border-radius: 25px;
+}
+
+.img-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 20vh;
+}
+
+.svg {
+	width: auto;
 }
 
 @media only screen and (min-width: 1030px) {

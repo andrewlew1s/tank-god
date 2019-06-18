@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
 		<div className="App__bg" />
-			<div className="App__wrapper" >
-			<Landing />
+		<div className="App__wrapper" >
+		<Landing />
 		</div>
 	</div>
   );

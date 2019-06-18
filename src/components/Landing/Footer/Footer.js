@@ -3,8 +3,6 @@ import './Footer.css';
 import AdCorp from '../../../assets/adcorp.svg';
 import EthWhite from '../../../assets/eth-white.svg';
 
-
-
 const Footer = () => {
 	return (
 		<div>

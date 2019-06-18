@@ -56,3 +56,9 @@
 	}
 
  }
+/* currently importing the web font is messing it up somehow */
+/* @font-face {
+	font-family: leadFont;
+	src: url('../../assets/fonts/lead.ttf') format('truetype'),
+	url('../../assets/fonts/lead.woff') format('woff')
+} */
